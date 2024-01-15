@@ -20,6 +20,7 @@ const Chat = (props: any) => {
   const bottomOfChatRef = useRef<HTMLDivElement>(null);
 
   const selectedModel = DEFAULT_OPENAI_MODEL;
+  <title>T9 AI</title>
 
   useEffect(() => {
     if (textAreaRef.current) {
@@ -166,7 +167,7 @@ const Chat = (props: any) => {
                     </div>
                   </div>
                   <h1 className="text-2xl sm:text-4xl font-semibold text-center text-gray-200 dark:text-gray-600 flex gap-2 items-center justify-center h-screen">
-                    ChatGPT Clone
+                    T9 AI
                   </h1>
                 </div>
               ) : null}
@@ -213,7 +214,7 @@ const Chat = (props: any) => {
           </form>
           <div className="px-3 pt-2 pb-3 text-center text-xs text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
             <span>
-              ChatGPT Clone may produce inaccurate information about people,
+              T9 AI Clone may produce inaccurate information about people,
               places, or facts.
             </span>
           </div>
